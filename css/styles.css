@@ -1,0 +1,9 @@
+#pizza-pic{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+#pizzaheader{
+  font-size: 70px;
+  text-align: right;
+}

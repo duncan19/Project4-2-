@@ -8,7 +8,7 @@ $(document).ready(function(){
 //getting their toppings
 $('input[name="toppings"]:checked').each(function() {
 toppingsarray.push(this.value);
-alert(toppingsarray)
+console.log(toppingsarray)
 });
 // if (toppingsarray.legnth === 1){
 //   var price = 0 + 1

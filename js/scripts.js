@@ -10,24 +10,6 @@ $('input[name="toppings"]:checked').each(function() {
 toppingsarray.push(this.value);
 console.log(toppingsarray)
 });
-// if (toppingsarray.legnth === 1){
-//   var price = 0 + 1
-//   console.log(price);
-// }
-// else if (toppingsarray.legnth === 2){
-//   var price = 0 + 2
-// console.log(price);
-// }
-// else if (toppingsarray.legnth === 3){
-//   var price = 0 + 3
-// console.log(price);
-// }
-// else if (toppingsarray.legnth === 4){
-//   var price = 0 + 4
-// console.log(price);
-// }
-// else{
-// console.log(price);
-// }
+
 });
 });

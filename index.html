@@ -10,25 +10,43 @@
 <body>
   <div class="container">
     <h2>Test</h2>
-    <form class="pizza maker">
-      <div class="sizeselector">
+    <form id="pizzamakerform">
+    <div>
+      <input type="radio" id="large" name="size" value="large">
+      <label for="large">Large</label>
+    </div>
+
+    <div>
+      <input type="radio" id="medium" name="size" value="medium">
+      <label for="medium">Medium</label>
+    </div>
+
+    <div>
+      <input type="radio" id="small" name="size" value="small">
+      <label for="small">Small</label>
+    </div>
+
+    <p>select your toppings</p>
+      <div class="toppingmaker">
         <div>
-          <input type="checkbox" id="large" name="large"
-          checked>
-          <label for="large">Large</label>
+          <input type="checkbox" id="cheese" name="cheese">
+          <label for="cheese">Cheese</label>
         </div>
 
         <div>
-          <input type="checkbox" id="medium" name="medium">
-          <label for="medium">Medium</label>
+          <input type="checkbox" id="pepperoni" name="pepperoni">
+          <label for="pepperoni">Pepperoni</label>
         </div>
         <div>
-          <input type="checkbox" id="small" name="small"
-          checked>
-          <label for="small">Small</label>
+          <input type="checkbox" id="olives" name="olives">
+          <label for="olives">Olives</label>
+        </div>
+        <div>
+          <input type="checkbox" id="bacon" name="bacon">
+          <label for="bacon">Bacon</label>
         </div>
       </div>
-
+      <button type="submit" id="formSubBtn">Calculate your price</button>
     </form>
 
 
